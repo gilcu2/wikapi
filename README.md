@@ -1,6 +1,6 @@
 # Wikapi
 
-Wrapper for wikipedia apis
+Wikipedia apis wrapper
 
 
 
