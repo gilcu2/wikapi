@@ -5,4 +5,4 @@ export 'src/model/search/search_response.dart';
 export 'src/model/search/search_result.dart';
 export 'src/model/thumbnail.dart';
 export 'src/model/wiki_response.dart';
-export 'src/Search.dart';
+export 'src/wiki_search.dart';

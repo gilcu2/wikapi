@@ -10,8 +10,8 @@ enum SearchType {
 }
 
 /// Allows you to search and query wikipedia pages.
-class Search {
-  static const String _baseUrl = '.wikipedia.org';
+class WikiData {
+  static const String _baseUrl = 'www.wikidata.org';
 
   /// Retrieve a random Wikipedia page
   static Future<WikiResponse?> random() async {
@@ -24,7 +24,7 @@ class Search {
   /// Return null if no matching page is found.
   ///
   /// use https://en.wikipedia.org/w/api.php?action=help
-  static Future<WikiResponse?> summary(
+  static Future<WikiResponse?> getEntities(
     int pageId, {
     int thumbnailWidth = 50,
     int thumbnailLimit = 1,
