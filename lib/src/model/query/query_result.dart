@@ -7,7 +7,6 @@ class SearchResult {
   final int wordcount;
   final String snippet;
 
-
   const SearchResult({
     required this.pageId,
     required this.title,
@@ -38,7 +37,8 @@ class SearchResult {
 
   String toJson() => json.encode(toMap());
 
-  factory SearchResult.fromJson(String source) => SearchResult.fromMap(json.decode(source));
+  factory SearchResult.fromJson(String source) =>
+      SearchResult.fromMap(json.decode(source));
 
   @override
   String toString() {
