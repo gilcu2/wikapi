@@ -1,25 +1,22 @@
 import 'dart:convert';
 
-/// A data class to store search information
-/// 
-/// [totalHits] indicates the quantity of matches for the given text.
-class SearchInfo {
+class GetEntitiesInfo {
   final int? totalHits;
   final String? suggestion;
   final String? suggestionsnippet;
-  
-  const SearchInfo({
+
+  const GetEntitiesInfo({
     this.totalHits,
     this.suggestion,
     this.suggestionsnippet,
   });
 
-  SearchInfo copyWith({
+  GetEntitiesInfo copyWith({
     int? totalHits,
     String? suggestion,
     String? suggestionsnippet,
   }) {
-    return SearchInfo(
+    return GetEntitiesInfo(
       totalHits: totalHits ?? this.totalHits,
       suggestion: suggestion ?? this.suggestion,
       suggestionsnippet: suggestionsnippet ?? this.suggestionsnippet,
@@ -34,8 +31,8 @@ class SearchInfo {
     };
   }
 
-  factory SearchInfo.fromMap(Map<String, dynamic> map) {
-    return SearchInfo(
+  factory GetEntitiesInfo.fromMap(Map<String, dynamic> map) {
+    return GetEntitiesInfo(
       totalHits: map['totalhits'],
       suggestion: map['suggestion'],
       suggestionsnippet: map['suggestionsnippet'],
@@ -44,7 +41,8 @@ class SearchInfo {
 
   String toJson() => json.encode(toMap());
 
-  factory SearchInfo.fromJson(String source) => SearchInfo.fromMap(json.decode(source));
+  factory GetEntitiesInfo.fromJson(String source) =>
+      GetEntitiesInfo.fromMap(json.decode(source));
 
   @override
   String toString() => 'SearchInfo(totalHits: $totalHits, suggestion: $suggestion, suggestionsnippet: $suggestionsnippet)';

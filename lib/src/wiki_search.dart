@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 
-import 'model/search/search_response.dart';
-import 'model/wiki_response.dart';
+import 'model/query/query_response.dart';
+import 'model/summary_response.dart';
 
 enum SearchType {
   nearmatch,
@@ -10,21 +10,11 @@ enum SearchType {
 }
 
 /// Allows you to search and query wikipedia pages.
-class WikiSearch {
+class WikiQuery {
   static const String _baseUrl = '.wikipedia.org';
 
-  /// Retrieve a random Wikipedia page
-  static Future<WikiResponse?> random() async {
-    throw UnimplementedError();
-  }
-
-  /// Returns the summary of a wiki page
-  ///
-  /// Query by using a [pageId] which can be obtained from [searchQuery] function.
-  /// Return null if no matching page is found.
-  ///
-  /// use https://en.wikipedia.org/w/api.php?action=help
-  static Future<WikiResponse?> summary(
+  /// https://en.wikipedia.org/w/api.php?action=help
+  static Future<SummaryResponse?> summary(
     int pageId, {
     int thumbnailWidth = 50,
     int thumbnailLimit = 1,
@@ -52,19 +42,13 @@ class WikiSearch {
     );
 
     if (res.statusCode == 200) {
-      return WikiResponse.fromJson(res.body);
+      return SummaryResponse.fromJson(res.body);
     } else {
       return Future.error(res.reasonPhrase??'Error calling wiki summary');
     }
   }
 
-  /// Start a search query from the provided [query].
-  ///
-  /// [limit] value will set the limit of the number of results returned.
-  /// Use [offset] for pagination (set to 0 by default to get the first page of results).
-  /// Return null if no matching page is found.
-  ///
-  /// refer to https://www.mediawiki.org/wiki/API:Search#GET_request
+  /// https://www.mediawiki.org/wiki/API:Search#GET_request
   static Future<SearchResponse?> searchQuery(
     String query, {
     int limit = 10,

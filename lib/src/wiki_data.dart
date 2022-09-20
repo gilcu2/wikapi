@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 
-import 'model/search/search_response.dart';
-import 'model/wiki_response.dart';
+import 'model/query/query_response.dart';
+import 'model/summary_response.dart';
 
 enum SearchType {
   nearmatch,
@@ -13,89 +13,29 @@ enum SearchType {
 class WikiData {
   static const String _baseUrl = 'www.wikidata.org';
 
-  /// Retrieve a random Wikipedia page
-  static Future<WikiResponse?> random() async {
-    throw UnimplementedError();
-  }
-
-  /// Returns the summary of a wiki page
-  ///
-  /// Query by using a [pageId] which can be obtained from [searchQuery] function.
-  /// Return null if no matching page is found.
-  ///
-  /// use https://en.wikipedia.org/w/api.php?action=help
-  static Future<WikiResponse?> getEntities(
-    int pageId, {
-    int thumbnailWidth = 50,
-    int thumbnailLimit = 1,
-    String lang = 'en',
-    Map<String, dynamic>? params,
-  }) async {
+  /// https://www.wikidata.org/w/api.php?action=help
+  static Future<SummaryResponse?> getEntities(
+      {List<String> titles = const ["milch"],
+      List<String> sites = const ["dewiki"],
+      List<String> languages = const ["en"]}) async {
     var res = await http.get(
       Uri(
-        scheme: 'https',
-        host: '$lang$_baseUrl',
-        path: '/w/api.php',
-        queryParameters: {
-          'action': 'query',
-          'redirects': '1',
-          'format': 'json',
-          'prop': 'extracts|description|langlinks',
-          'exintro': '1',
-          'explaintext': '1',
-          'pageids': '$pageId',
-          'pithumbsize': '$thumbnailWidth',
-          'pilimit': '$thumbnailLimit',
-          if (params != null) ...params,
-        },
-      ),
+          scheme: 'https',
+          host: _baseUrl,
+          path: '/w/api.php',
+          queryParameters: {
+            "action": "wbgetentities",
+            'sites': sites.join("|"),
+            'titles': titles.join("|"),
+            'languages': languages.join("|"),
+            "format": "json",
+          }),
     );
 
     if (res.statusCode == 200) {
-      return WikiResponse.fromJson(res.body);
+      return SummaryResponse.fromJson(res.body);
     } else {
-      return Future.error(res.reasonPhrase??'Error calling wiki summary');
-    }
-  }
-
-  /// Start a search query from the provided [query].
-  ///
-  /// [limit] value will set the limit of the number of results returned.
-  /// Use [offset] for pagination (set to 0 by default to get the first page of results).
-  /// Return null if no matching page is found.
-  ///
-  /// refer to https://www.mediawiki.org/wiki/API:Search#GET_request
-  static Future<SearchResponse?> searchQuery(
-    String query, {
-    int limit = 10,
-    int offset = 0,
-    SearchType searchType = SearchType.text,
-    String lang = 'en',
-    Map<String, dynamic>? params,
-  }) async {
-    if (query.isEmpty) throw ArgumentError.notNull();
-    var res = await http.get(Uri(
-      scheme: 'https',
-      host: '$lang$_baseUrl',
-      path: '/w/api.php',
-      queryParameters: {
-        'action': 'query',
-        'list': 'search',
-        'srsearch': query,
-        'format': 'json',
-        'srlimit': '$limit',
-        'sroffset': '$offset',
-        'srinfo': 'suggestion|totalhits',
-        // 'srprop': 'snippet|titlesnippet|sectiontitle|categorysnippet',
-        'srwhat': searchType.toString().split('.').last,
-        if (params != null) ...params,
-      },
-    ));
-
-    if (res.statusCode == 200) {
-      return SearchResponse.fromJson(res.body);
-    } else {
-      return Future.error(res.reasonPhrase??'Error calling wiki summary');
+      return Future.error(res.reasonPhrase ?? 'Error calling wiki data');
     }
   }
 }

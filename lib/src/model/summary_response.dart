@@ -35,7 +35,7 @@ import 'package:tuple/tuple.dart';
 /// A class to contain the response from the Wikipedia query.
 ///
 /// [pageId] is the unique personal identifier associated to that wiki page.
-class WikiResponse {
+class SummaryResponse {
   final bool success;
   final int? pageId;
   final String? title;
@@ -45,7 +45,7 @@ class WikiResponse {
 
   final Map<String, dynamic> rawResponse;
 
-  const WikiResponse({
+  const SummaryResponse({
     required this.success,
     required this.rawResponse,
     this.pageId,
@@ -74,11 +74,11 @@ class WikiResponse {
     };
   }
 
-  factory WikiResponse.fromMap(Map<String, dynamic> map) {
+  factory SummaryResponse.fromMap(Map<String, dynamic> map) {
     Map? path = map['query']?['pages'];
     String? key = path?.keys.first;
 
-    return WikiResponse(
+    return SummaryResponse(
       pageId: path?[key]?['pageid'],
       title: path?[key]?['title'],
       description: path?[key]?['description'],
@@ -95,8 +95,8 @@ class WikiResponse {
 
   String toJson() => json.encode(toMap());
 
-  factory WikiResponse.fromJson(String source) =>
-      WikiResponse.fromMap(json.decode(source));
+  factory SummaryResponse.fromJson(String source) =>
+      SummaryResponse.fromMap(json.decode(source));
 
   @override
   String toString() => 'WikiResponse(${toMap().toString()})';
