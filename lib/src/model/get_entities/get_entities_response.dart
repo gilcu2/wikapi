@@ -23,9 +23,9 @@ class GetEntitiesResponse {
   }
 
   factory GetEntitiesResponse.fromMap(Map<String, dynamic> map) {
-    List<GetEntitiesResult> mapToResults(List<dynamic> listEntities) {
+    List<GetEntitiesResult> mapToResults(Map<String, dynamic> mapEntities) {
       return List<GetEntitiesResult>.from(
-          listEntities.map((x) => GetEntitiesResult.fromMap(x)));
+          mapEntities.values.map((x) => GetEntitiesResult.fromMap(x)));
     }
 
     var results =

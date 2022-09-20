@@ -3,8 +3,8 @@ import 'dart:convert';
 class GetEntitiesResult {
   final int pageId;
   final String title;
-  final List<Map<String, String>> labels;
-  final List<Map<String, String>> descriptions;
+  final Map<String, String> labels;
+  final Map<String, String> descriptions;
 
   const GetEntitiesResult({
     required this.pageId,
@@ -23,11 +23,17 @@ class GetEntitiesResult {
   }
 
   factory GetEntitiesResult.fromMap(Map<String, dynamic> map) {
+    var labels = Map<String, String>.fromIterable(map['labels'].values,
+        key: (x) => x["language"], value: (x) => x["value"]);
+    var descriptions = Map<String, String>.fromIterable(
+        map['descriptions'].values,
+        key: (x) => x["language"],
+        value: (x) => x["value"]);
     return GetEntitiesResult(
       pageId: map['pageid'],
       title: map['title'],
-      labels: map['labels'],
-      descriptions: map['descriptions'],
+      labels: labels,
+      descriptions: descriptions,
     );
   }
 
