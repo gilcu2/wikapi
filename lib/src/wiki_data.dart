@@ -1,15 +1,8 @@
 import 'package:http/http.dart' as http;
 
-import 'model/get_entities/get_entities_info.dart';
 import 'model/get_entities/get_entities_response.dart';
 
-enum SearchType {
-  nearmatch,
-  text,
-  /*title*/
-}
-
-/// Allows you to search and query wikipedia pages.
+/// Allows to query related wikipedia pages.
 class WikiData {
   static const String _baseUrl = 'www.wikidata.org';
 
