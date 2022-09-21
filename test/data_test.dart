@@ -1,5 +1,4 @@
 import 'package:wikapi/src/wiki_data.dart';
-import 'package:wikapi/wikapi.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -10,12 +9,15 @@ void main() {
       var sites = ["dewiki"];
 
       // And desired lang
+      var languages = ["en"];
 
       // When find relation
-      var res = await WikiData.getEntities(titles: titles);
+      var res =
+          await WikiData.getEntities(titles: titles, languages: languages);
 
       // Must be the expected
       expect(res?.success, isTrue);
+      expect(res?.results?[0].labels["en"], "milk");
     });
   });
 }

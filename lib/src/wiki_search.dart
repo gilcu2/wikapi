@@ -9,7 +9,7 @@ enum SearchType {
   /*title*/
 }
 
-/// Allows you to search and query wikipedia pages.
+/// Allows to search and query wikipedia pages.
 class WikiQuery {
   static const String _baseUrl = '.wikipedia.org';
 
