@@ -1,6 +1,4 @@
 import 'dart:convert';
-
-import 'get_entities_info.dart';
 import 'get_entities_result.dart';
 
 class GetEntitiesResponse {

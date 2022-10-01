@@ -1,4 +1,4 @@
-import 'package:wikapi/src/wiki_data.dart';
+import 'package:wikapi/src/wikidata.dart';
 import 'package:test/test.dart';
 
 void main() {
@@ -12,8 +12,8 @@ void main() {
       var languages = ["en"];
 
       // When find relation
-      var res =
-          await WikiData.getEntities(titles: titles, languages: languages);
+      var res = await WikiData.getEntities(
+          titles: titles, sites: sites, languages: languages);
 
       // Must be the expected
       expect(res?.success, isTrue);
