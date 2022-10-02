@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:wikapi/src/model/query/query_info.dart';
+import 'package:wikapi/src/model/search/search_info.dart';
 
-import 'query_result.dart';
+import 'search_result.dart';
 
 /// This class holds the response from the search query.
 /// 
