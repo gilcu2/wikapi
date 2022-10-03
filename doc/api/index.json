@@ -1,0 +1,1114 @@
+[
+  {
+    "name": "wikapi",
+    "qualifiedName": "wikapi",
+    "href": "wikapi/wikapi-library.html",
+    "type": "library",
+    "overriddenDepth": 0,
+    "packageName": "wikapi"
+  },
+  {
+    "name": "GetEntitiesResponse",
+    "qualifiedName": "wikapi.GetEntitiesResponse",
+    "href": "wikapi/GetEntitiesResponse-class.html",
+    "type": "class",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "wikapi",
+      "type": "library"
+    }
+  },
+  {
+    "name": "GetEntitiesResponse",
+    "qualifiedName": "wikapi.GetEntitiesResponse.GetEntitiesResponse",
+    "href": "wikapi/GetEntitiesResponse/GetEntitiesResponse.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "GetEntitiesResponse.fromJson",
+    "qualifiedName": "wikapi.GetEntitiesResponse.fromJson",
+    "href": "wikapi/GetEntitiesResponse/GetEntitiesResponse.fromJson.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "GetEntitiesResponse.fromMap",
+    "qualifiedName": "wikapi.GetEntitiesResponse.fromMap",
+    "href": "wikapi/GetEntitiesResponse/GetEntitiesResponse.fromMap.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "rawResponse",
+    "qualifiedName": "wikapi.GetEntitiesResponse.rawResponse",
+    "href": "wikapi/GetEntitiesResponse/rawResponse.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "results",
+    "qualifiedName": "wikapi.GetEntitiesResponse.results",
+    "href": "wikapi/GetEntitiesResponse/results.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "success",
+    "qualifiedName": "wikapi.GetEntitiesResponse.success",
+    "href": "wikapi/GetEntitiesResponse/success.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toJson",
+    "qualifiedName": "wikapi.GetEntitiesResponse.toJson",
+    "href": "wikapi/GetEntitiesResponse/toJson.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toMap",
+    "qualifiedName": "wikapi.GetEntitiesResponse.toMap",
+    "href": "wikapi/GetEntitiesResponse/toMap.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toString",
+    "qualifiedName": "wikapi.GetEntitiesResponse.toString",
+    "href": "wikapi/GetEntitiesResponse/toString.html",
+    "type": "method",
+    "overriddenDepth": 1,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "GetEntitiesResult",
+    "qualifiedName": "wikapi.GetEntitiesResult",
+    "href": "wikapi/GetEntitiesResult-class.html",
+    "type": "class",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "wikapi",
+      "type": "library"
+    }
+  },
+  {
+    "name": "GetEntitiesResult",
+    "qualifiedName": "wikapi.GetEntitiesResult.GetEntitiesResult",
+    "href": "wikapi/GetEntitiesResult/GetEntitiesResult.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "descriptions",
+    "qualifiedName": "wikapi.GetEntitiesResult.descriptions",
+    "href": "wikapi/GetEntitiesResult/descriptions.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "GetEntitiesResult.fromJson",
+    "qualifiedName": "wikapi.GetEntitiesResult.fromJson",
+    "href": "wikapi/GetEntitiesResult/GetEntitiesResult.fromJson.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "GetEntitiesResult.fromMap",
+    "qualifiedName": "wikapi.GetEntitiesResult.fromMap",
+    "href": "wikapi/GetEntitiesResult/GetEntitiesResult.fromMap.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "labels",
+    "qualifiedName": "wikapi.GetEntitiesResult.labels",
+    "href": "wikapi/GetEntitiesResult/labels.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "pageId",
+    "qualifiedName": "wikapi.GetEntitiesResult.pageId",
+    "href": "wikapi/GetEntitiesResult/pageId.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "title",
+    "qualifiedName": "wikapi.GetEntitiesResult.title",
+    "href": "wikapi/GetEntitiesResult/title.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toJson",
+    "qualifiedName": "wikapi.GetEntitiesResult.toJson",
+    "href": "wikapi/GetEntitiesResult/toJson.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toMap",
+    "qualifiedName": "wikapi.GetEntitiesResult.toMap",
+    "href": "wikapi/GetEntitiesResult/toMap.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toString",
+    "qualifiedName": "wikapi.GetEntitiesResult.toString",
+    "href": "wikapi/GetEntitiesResult/toString.html",
+    "type": "method",
+    "overriddenDepth": 1,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "GetEntitiesResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "SearchInfo",
+    "qualifiedName": "wikapi.SearchInfo",
+    "href": "wikapi/SearchInfo-class.html",
+    "type": "class",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "wikapi",
+      "type": "library"
+    }
+  },
+  {
+    "name": "SearchInfo",
+    "qualifiedName": "wikapi.SearchInfo.SearchInfo",
+    "href": "wikapi/SearchInfo/SearchInfo.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchInfo",
+      "type": "class"
+    }
+  },
+  {
+    "name": "copyWith",
+    "qualifiedName": "wikapi.SearchInfo.copyWith",
+    "href": "wikapi/SearchInfo/copyWith.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchInfo",
+      "type": "class"
+    }
+  },
+  {
+    "name": "SearchInfo.fromJson",
+    "qualifiedName": "wikapi.SearchInfo.fromJson",
+    "href": "wikapi/SearchInfo/SearchInfo.fromJson.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchInfo",
+      "type": "class"
+    }
+  },
+  {
+    "name": "SearchInfo.fromMap",
+    "qualifiedName": "wikapi.SearchInfo.fromMap",
+    "href": "wikapi/SearchInfo/SearchInfo.fromMap.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchInfo",
+      "type": "class"
+    }
+  },
+  {
+    "name": "suggestion",
+    "qualifiedName": "wikapi.SearchInfo.suggestion",
+    "href": "wikapi/SearchInfo/suggestion.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchInfo",
+      "type": "class"
+    }
+  },
+  {
+    "name": "suggestionsnippet",
+    "qualifiedName": "wikapi.SearchInfo.suggestionsnippet",
+    "href": "wikapi/SearchInfo/suggestionsnippet.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchInfo",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toJson",
+    "qualifiedName": "wikapi.SearchInfo.toJson",
+    "href": "wikapi/SearchInfo/toJson.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchInfo",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toMap",
+    "qualifiedName": "wikapi.SearchInfo.toMap",
+    "href": "wikapi/SearchInfo/toMap.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchInfo",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toString",
+    "qualifiedName": "wikapi.SearchInfo.toString",
+    "href": "wikapi/SearchInfo/toString.html",
+    "type": "method",
+    "overriddenDepth": 1,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchInfo",
+      "type": "class"
+    }
+  },
+  {
+    "name": "totalHits",
+    "qualifiedName": "wikapi.SearchInfo.totalHits",
+    "href": "wikapi/SearchInfo/totalHits.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchInfo",
+      "type": "class"
+    }
+  },
+  {
+    "name": "SearchResponse",
+    "qualifiedName": "wikapi.SearchResponse",
+    "href": "wikapi/SearchResponse-class.html",
+    "type": "class",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "wikapi",
+      "type": "library"
+    }
+  },
+  {
+    "name": "SearchResponse",
+    "qualifiedName": "wikapi.SearchResponse.SearchResponse",
+    "href": "wikapi/SearchResponse/SearchResponse.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "SearchResponse.fromJson",
+    "qualifiedName": "wikapi.SearchResponse.fromJson",
+    "href": "wikapi/SearchResponse/SearchResponse.fromJson.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "SearchResponse.fromMap",
+    "qualifiedName": "wikapi.SearchResponse.fromMap",
+    "href": "wikapi/SearchResponse/SearchResponse.fromMap.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "offset",
+    "qualifiedName": "wikapi.SearchResponse.offset",
+    "href": "wikapi/SearchResponse/offset.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "rawResponse",
+    "qualifiedName": "wikapi.SearchResponse.rawResponse",
+    "href": "wikapi/SearchResponse/rawResponse.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "results",
+    "qualifiedName": "wikapi.SearchResponse.results",
+    "href": "wikapi/SearchResponse/results.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "searchInfo",
+    "qualifiedName": "wikapi.SearchResponse.searchInfo",
+    "href": "wikapi/SearchResponse/searchInfo.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "success",
+    "qualifiedName": "wikapi.SearchResponse.success",
+    "href": "wikapi/SearchResponse/success.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toJson",
+    "qualifiedName": "wikapi.SearchResponse.toJson",
+    "href": "wikapi/SearchResponse/toJson.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toMap",
+    "qualifiedName": "wikapi.SearchResponse.toMap",
+    "href": "wikapi/SearchResponse/toMap.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toString",
+    "qualifiedName": "wikapi.SearchResponse.toString",
+    "href": "wikapi/SearchResponse/toString.html",
+    "type": "method",
+    "overriddenDepth": 1,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "SearchResult",
+    "qualifiedName": "wikapi.SearchResult",
+    "href": "wikapi/SearchResult-class.html",
+    "type": "class",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "wikapi",
+      "type": "library"
+    }
+  },
+  {
+    "name": "SearchResult",
+    "qualifiedName": "wikapi.SearchResult.SearchResult",
+    "href": "wikapi/SearchResult/SearchResult.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "SearchResult.fromJson",
+    "qualifiedName": "wikapi.SearchResult.fromJson",
+    "href": "wikapi/SearchResult/SearchResult.fromJson.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "SearchResult.fromMap",
+    "qualifiedName": "wikapi.SearchResult.fromMap",
+    "href": "wikapi/SearchResult/SearchResult.fromMap.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "pageId",
+    "qualifiedName": "wikapi.SearchResult.pageId",
+    "href": "wikapi/SearchResult/pageId.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "size",
+    "qualifiedName": "wikapi.SearchResult.size",
+    "href": "wikapi/SearchResult/size.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "snippet",
+    "qualifiedName": "wikapi.SearchResult.snippet",
+    "href": "wikapi/SearchResult/snippet.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "title",
+    "qualifiedName": "wikapi.SearchResult.title",
+    "href": "wikapi/SearchResult/title.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toJson",
+    "qualifiedName": "wikapi.SearchResult.toJson",
+    "href": "wikapi/SearchResult/toJson.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toMap",
+    "qualifiedName": "wikapi.SearchResult.toMap",
+    "href": "wikapi/SearchResult/toMap.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toString",
+    "qualifiedName": "wikapi.SearchResult.toString",
+    "href": "wikapi/SearchResult/toString.html",
+    "type": "method",
+    "overriddenDepth": 1,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "wordcount",
+    "qualifiedName": "wikapi.SearchResult.wordcount",
+    "href": "wikapi/SearchResult/wordcount.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchResult",
+      "type": "class"
+    }
+  },
+  {
+    "name": "SearchType",
+    "qualifiedName": "wikapi.SearchType",
+    "href": "wikapi/SearchType.html",
+    "type": "enum",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "wikapi",
+      "type": "library"
+    }
+  },
+  {
+    "name": "SearchType",
+    "qualifiedName": "wikapi.SearchType.SearchType",
+    "href": "wikapi/SearchType/SearchType.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchType",
+      "type": "enum"
+    }
+  },
+  {
+    "name": "values",
+    "qualifiedName": "wikapi.SearchType.values",
+    "href": "wikapi/SearchType/values-constant.html",
+    "type": "constant",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SearchType",
+      "type": "enum"
+    }
+  },
+  {
+    "name": "SummaryResponse",
+    "qualifiedName": "wikapi.SummaryResponse",
+    "href": "wikapi/SummaryResponse-class.html",
+    "type": "class",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "wikapi",
+      "type": "library"
+    }
+  },
+  {
+    "name": "SummaryResponse",
+    "qualifiedName": "wikapi.SummaryResponse.SummaryResponse",
+    "href": "wikapi/SummaryResponse/SummaryResponse.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "description",
+    "qualifiedName": "wikapi.SummaryResponse.description",
+    "href": "wikapi/SummaryResponse/description.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "extract",
+    "qualifiedName": "wikapi.SummaryResponse.extract",
+    "href": "wikapi/SummaryResponse/extract.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "SummaryResponse.fromJson",
+    "qualifiedName": "wikapi.SummaryResponse.fromJson",
+    "href": "wikapi/SummaryResponse/SummaryResponse.fromJson.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "SummaryResponse.fromMap",
+    "qualifiedName": "wikapi.SummaryResponse.fromMap",
+    "href": "wikapi/SummaryResponse/SummaryResponse.fromMap.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "langlinks",
+    "qualifiedName": "wikapi.SummaryResponse.langlinks",
+    "href": "wikapi/SummaryResponse/langlinks.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "pageId",
+    "qualifiedName": "wikapi.SummaryResponse.pageId",
+    "href": "wikapi/SummaryResponse/pageId.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "rawResponse",
+    "qualifiedName": "wikapi.SummaryResponse.rawResponse",
+    "href": "wikapi/SummaryResponse/rawResponse.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "success",
+    "qualifiedName": "wikapi.SummaryResponse.success",
+    "href": "wikapi/SummaryResponse/success.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "title",
+    "qualifiedName": "wikapi.SummaryResponse.title",
+    "href": "wikapi/SummaryResponse/title.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toJson",
+    "qualifiedName": "wikapi.SummaryResponse.toJson",
+    "href": "wikapi/SummaryResponse/toJson.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toMap",
+    "qualifiedName": "wikapi.SummaryResponse.toMap",
+    "href": "wikapi/SummaryResponse/toMap.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toString",
+    "qualifiedName": "wikapi.SummaryResponse.toString",
+    "href": "wikapi/SummaryResponse/toString.html",
+    "type": "method",
+    "overriddenDepth": 1,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "SummaryResponse",
+      "type": "class"
+    }
+  },
+  {
+    "name": "Thumbnail",
+    "qualifiedName": "wikapi.Thumbnail",
+    "href": "wikapi/Thumbnail-class.html",
+    "type": "class",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "wikapi",
+      "type": "library"
+    }
+  },
+  {
+    "name": "Thumbnail",
+    "qualifiedName": "wikapi.Thumbnail.Thumbnail",
+    "href": "wikapi/Thumbnail/Thumbnail.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Thumbnail",
+      "type": "class"
+    }
+  },
+  {
+    "name": "Thumbnail.fromJson",
+    "qualifiedName": "wikapi.Thumbnail.fromJson",
+    "href": "wikapi/Thumbnail/Thumbnail.fromJson.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Thumbnail",
+      "type": "class"
+    }
+  },
+  {
+    "name": "Thumbnail.fromMap",
+    "qualifiedName": "wikapi.Thumbnail.fromMap",
+    "href": "wikapi/Thumbnail/Thumbnail.fromMap.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Thumbnail",
+      "type": "class"
+    }
+  },
+  {
+    "name": "height",
+    "qualifiedName": "wikapi.Thumbnail.height",
+    "href": "wikapi/Thumbnail/height.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Thumbnail",
+      "type": "class"
+    }
+  },
+  {
+    "name": "source",
+    "qualifiedName": "wikapi.Thumbnail.source",
+    "href": "wikapi/Thumbnail/source.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Thumbnail",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toJson",
+    "qualifiedName": "wikapi.Thumbnail.toJson",
+    "href": "wikapi/Thumbnail/toJson.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Thumbnail",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toMap",
+    "qualifiedName": "wikapi.Thumbnail.toMap",
+    "href": "wikapi/Thumbnail/toMap.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Thumbnail",
+      "type": "class"
+    }
+  },
+  {
+    "name": "toString",
+    "qualifiedName": "wikapi.Thumbnail.toString",
+    "href": "wikapi/Thumbnail/toString.html",
+    "type": "method",
+    "overriddenDepth": 1,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Thumbnail",
+      "type": "class"
+    }
+  },
+  {
+    "name": "width",
+    "qualifiedName": "wikapi.Thumbnail.width",
+    "href": "wikapi/Thumbnail/width.html",
+    "type": "property",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Thumbnail",
+      "type": "class"
+    }
+  },
+  {
+    "name": "WikiData",
+    "qualifiedName": "wikapi.WikiData",
+    "href": "wikapi/WikiData-class.html",
+    "type": "class",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "wikapi",
+      "type": "library"
+    }
+  },
+  {
+    "name": "WikiData",
+    "qualifiedName": "wikapi.WikiData.WikiData",
+    "href": "wikapi/WikiData/WikiData.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "WikiData",
+      "type": "class"
+    }
+  },
+  {
+    "name": "addParameter",
+    "qualifiedName": "wikapi.WikiData.addParameter",
+    "href": "wikapi/WikiData/addParameter.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "WikiData",
+      "type": "class"
+    }
+  },
+  {
+    "name": "getEntities",
+    "qualifiedName": "wikapi.WikiData.getEntities",
+    "href": "wikapi/WikiData/getEntities.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "WikiData",
+      "type": "class"
+    }
+  },
+  {
+    "name": "Wikipedia",
+    "qualifiedName": "wikapi.Wikipedia",
+    "href": "wikapi/Wikipedia-class.html",
+    "type": "class",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "wikapi",
+      "type": "library"
+    }
+  },
+  {
+    "name": "Wikipedia",
+    "qualifiedName": "wikapi.Wikipedia.Wikipedia",
+    "href": "wikapi/Wikipedia/Wikipedia.html",
+    "type": "constructor",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Wikipedia",
+      "type": "class"
+    }
+  },
+  {
+    "name": "getPageProps",
+    "qualifiedName": "wikapi.Wikipedia.getPageProps",
+    "href": "wikapi/Wikipedia/getPageProps.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Wikipedia",
+      "type": "class"
+    }
+  },
+  {
+    "name": "searchQuery",
+    "qualifiedName": "wikapi.Wikipedia.searchQuery",
+    "href": "wikapi/Wikipedia/searchQuery.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Wikipedia",
+      "type": "class"
+    }
+  },
+  {
+    "name": "summary",
+    "qualifiedName": "wikapi.Wikipedia.summary",
+    "href": "wikapi/Wikipedia/summary.html",
+    "type": "method",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "Wikipedia",
+      "type": "class"
+    }
+  }
+]
