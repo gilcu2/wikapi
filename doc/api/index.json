@@ -1110,5 +1110,17 @@
       "name": "Wikipedia",
       "type": "class"
     }
+  },
+  {
+    "name": "createGetEntitiesResultFromMap",
+    "qualifiedName": "wikapi.createGetEntitiesResultFromMap",
+    "href": "wikapi/createGetEntitiesResultFromMap.html",
+    "type": "function",
+    "overriddenDepth": 0,
+    "packageName": "wikapi",
+    "enclosedBy": {
+      "name": "wikapi",
+      "type": "library"
+    }
   }
 ]
