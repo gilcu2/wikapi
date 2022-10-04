@@ -36,7 +36,7 @@ void main() {
       expect(res?.results?[0].labels["en"], "milk");
     });
 
-    test('Getting the entities related to en milk in ge', () async {
+    test('Getting the entities related to en milk in de', () async {
       // Given title, site
       var titles = ["Milk"];
       var sites = ["enwiki"];

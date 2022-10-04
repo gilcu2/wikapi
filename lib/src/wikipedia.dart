@@ -88,7 +88,7 @@ class Wikipedia {
 
   /// https://www.wikidata.org/w/api.php?action=help
   static Future<GetPagePropsResponse?> getPageProps({
-    List<int> ids = const [],
+    List<int> pageIds = const [],
     List<String> titles = const ["milch"],
     List<String> sites = const ["*"],
     String lang = 'en',
@@ -99,8 +99,8 @@ class Wikipedia {
       "prop": "pageprops",
     };
     _addParameter("sites", sites, queryParameters);
-    if (ids.isNotEmpty) {
-      _addParameter("pageids", ids, queryParameters);
+    if (pageIds.isNotEmpty) {
+      _addParameter("pageids", pageIds, queryParameters);
     } else if (titles.isNotEmpty) {
       _addParameter("titles", titles, queryParameters);
     }
