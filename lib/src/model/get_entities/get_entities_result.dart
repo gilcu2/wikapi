@@ -23,9 +23,9 @@ class GetEntitiesResult {
   }
 
   factory GetEntitiesResult.fromMap(Map<String, dynamic> map) {
-    var labels = Map<String, String>.fromIterable(map['labels'].values,
+    final labels = Map<String, String>.fromIterable(map['labels'].values,
         key: (x) => x["language"], value: (x) => x["value"]);
-    var descriptions = Map<String, String>.fromIterable(
+    final descriptions = Map<String, String>.fromIterable(
         map['descriptions'].values,
         key: (x) => x["language"],
         value: (x) => x["value"]);
@@ -46,4 +46,14 @@ class GetEntitiesResult {
   String toString() {
     return 'SearchResult(${toMap().toString()})';
   }
+}
+
+GetEntitiesResult? createGetEntitiesResultFromMap(Map<String, dynamic> map) {
+  if (map.containsKey("labels") &&
+      map.containsKey('descriptions') &&
+      map.containsKey("pageid") &&
+      map.containsKey('title')) {
+    return GetEntitiesResult.fromMap(map);
+  }
+  return null;
 }

@@ -22,8 +22,11 @@ class GetEntitiesResponse {
 
   factory GetEntitiesResponse.fromMap(Map<String, dynamic> map) {
     List<GetEntitiesResult> mapToResults(Map<String, dynamic> mapEntities) {
-      return List<GetEntitiesResult>.from(
-          mapEntities.values.map((x) => GetEntitiesResult.fromMap(x)));
+      final possibleEntitiesResult = List<GetEntitiesResult?>.from(
+          mapEntities.values.map((x) => createGetEntitiesResultFromMap(x)));
+      final List<GetEntitiesResult> result =
+          possibleEntitiesResult.whereType<GetEntitiesResult>().toList();
+      return result;
     }
 
     var results =
@@ -41,5 +44,5 @@ class GetEntitiesResponse {
       GetEntitiesResponse.fromMap(json.decode(source));
 
   @override
-  String toString() => 'SearchResponse(${toMap().toString()})';
+  String toString() => 'GetEntitiesResponse(${toMap().toString()})';
 }
