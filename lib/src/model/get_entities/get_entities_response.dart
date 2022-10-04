@@ -22,10 +22,10 @@ class GetEntitiesResponse {
 
   factory GetEntitiesResponse.fromMap(Map<String, dynamic> map) {
     List<GetEntitiesResult> mapToResults(Map<String, dynamic> mapEntities) {
-      final possibleEntitiesResult = List<GetEntitiesResult>.from(
+      final possibleEntitiesResult = List<GetEntitiesResult?>.from(
           mapEntities.values.map((x) => createGetEntitiesResultFromMap(x)));
-      final result =
-          possibleEntitiesResult.where((element) => element != null).toList();
+      final List<GetEntitiesResult> result =
+          possibleEntitiesResult.whereType<GetEntitiesResult>().toList();
       return result;
     }
 
