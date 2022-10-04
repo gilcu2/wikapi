@@ -1,6 +1,6 @@
 name: wikapi
 description: Wikipedia and Wikidata api wrappers
-version: 0.3.1
+version: 0.3.2
 repository: https://github.com/gilcu2/wikapi.git
 
 environment:

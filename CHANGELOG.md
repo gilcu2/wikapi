@@ -14,3 +14,7 @@
 
 - Fix Readme
 
+# 0.3.2
+
+- Get entities improved
+

@@ -8,7 +8,7 @@ class WikiData {
 
   /// https://www.wikidata.org/w/api.php?action=help
   static Future<GetEntitiesResponse?> getEntities(
-      {List<String> ids = const [],
+      {List<String> entityIds = const [],
       List<String> titles = const ["milch"],
       List<String> sites = const ["dewiki"],
       List<String> languages = const ["en"]}) async {
@@ -16,7 +16,7 @@ class WikiData {
       "action": "wbgetentities",
       "format": "json",
     };
-    addParameter("ids", ids, queryParameters);
+    addParameter("ids", entityIds, queryParameters);
     addParameter("sites", sites, queryParameters);
     addParameter("titles", titles, queryParameters);
     addParameter("languages", languages, queryParameters);
