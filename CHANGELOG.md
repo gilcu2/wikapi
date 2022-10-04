@@ -17,4 +17,5 @@
 # 0.3.2
 
 - Get entities improved
+- Api documentation
 
