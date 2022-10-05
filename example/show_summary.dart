@@ -27,17 +27,21 @@ Future<void> main(List<String> arguments) async {
     exit(1);
   }
 
-  final pageIdOtherLang = (await WikiData.getEntities(
+  final getEntitiesResult = (await WikiData.getEntities(
           entityIds: [entityId], languages: [otherLang]))
-      ?.results
-      ?.first
-      .pageId;
+      ?.results;
+  final titleOtherLang = getEntitiesResult?.first.labels[otherLang];
 
   final summaryEn = await Wikipedia.summary(pageIdEn, lang: "en");
   print("Summary en: ${summaryEn?.extract}");
 
-  if (pageIdOtherLang != null) {
-    final summaryOtherLang = await Wikipedia.summary(pageIdOtherLang);
+  if (titleOtherLang != null) {
+    final searchResultOtherLang =
+        await Wikipedia.searchQuery(titleOtherLang, lang: otherLang);
+    final pageIdOtherLang = searchResultOtherLang?.results?.first.pageId;
+
+    final summaryOtherLang =
+        await Wikipedia.summary(pageIdOtherLang!, lang: otherLang);
     print("Summary $otherLang: ${summaryOtherLang?.extract}");
   }
 }
