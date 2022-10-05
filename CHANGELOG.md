@@ -19,3 +19,7 @@
 - Get entities improved
 - Api documentation
 
+# 0.3.3
+
+- Improved example and tests
+
