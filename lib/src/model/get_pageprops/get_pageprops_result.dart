@@ -3,19 +3,19 @@ import 'dart:convert';
 class GetPagePropsResult {
   final int pageId;
   final String title;
-  final String wikidataId;
+  final String entityId;
 
   const GetPagePropsResult({
     required this.pageId,
     required this.title,
-    required this.wikidataId,
+    required this.entityId,
   });
 
   Map<String, dynamic> toMap() {
     return {
       "pageid": pageId,
       'title': title,
-      "wikibase_item": wikidataId,
+      "wikibase_item": entityId,
     };
   }
 
@@ -23,7 +23,7 @@ class GetPagePropsResult {
     return GetPagePropsResult(
       pageId: map['pageid'],
       title: map['title'],
-      wikidataId: map['pageprops']["wikibase_item"],
+      entityId: map['pageprops']["wikibase_item"],
     );
   }
 
